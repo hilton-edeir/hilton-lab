@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700&display=swap');
+
+:root {
+  --cont-primary: #1C0C5B;
+  --cont-secondary: #ffffff;
+  --bg-primary: #ffffff;
+  --bg-secondary: #212121;
+}
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-primary);
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e7e7e7;
+}
+
+.navbar-brand {
+  padding-left: 4%;
+}
+
+.nav-link.active {
+  border-bottom: 1px solid rgb(41, 59, 95);
+}
+
+.navbar-collapse {
+  padding-right:3%;
+}
+
+button:focus {
+  box-shadow: none!important;
+}
+
+
+.custom-btn-primary {
+  background-color: rgba(61,44,141,255)!important;
+  border-color: rgba(61,44,141,255)!important;
+  color: #fff!important;
+}
+
+.custom-btn-primary:hover {
+  background-color: rgba(61,44,141,255)!important;
+  border-color: rgba(61,44,141,255)!important;
+}
+
+.custom-btn-outline-primary {
+  background-color: transparent!important;
+  border-color: rgba(61,44,141,255)!important;
+  color: rgba(61,44,141,255)!important;
+}
+
+.custom-btn-outline-primary:hover {
+  background-color: rgba(61,44,141,255)!important;
+  border-color: rgba(61,44,141,255)!important;
+  color: #fff!important;
+}
